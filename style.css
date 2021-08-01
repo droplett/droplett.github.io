@@ -1,0 +1,88 @@
+@import url("./NexaBlack.ttf");
+@import url("./LeonSansRegular.ttf");
+
+@font-face {
+  font-family: "NexaBlack";
+  src: url("./NexaBlack.ttf");
+}
+
+@font-face {
+  font-family: "LeonSans";
+  src: url("./LeonSansRegular.ttf");
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  background: #3F0E54;
+}
+
+h1 {
+  color: #00ADEE;
+  font-size: 70px;
+  font-family: NexaBlack;
+}
+
+h2 {
+  color: #EB008B;
+  font-size: 40px;
+  font-family: NexaBlack;
+}
+
+p {
+  font-size: 20px;
+  font-family: LeonSans;
+}
+
+.navcontent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+a[href="#navbar"] {
+  text-decoration: none;
+}
+
+.divider {
+  height: 5px;
+  width: 95vw;
+  background: #2F0840;
+  margin-bottom: 100px;
+}
+
+.content {
+  margin-left: 5vh;
+}
+
+.left {
+  width: 570px;
+}
+
+button {
+  border: none;
+  outline: none;
+  font-size: 17px;
+  border-radius: 3px;
+  background: #00ADEE;
+  font-family: LeonSans;
+  padding: 15px 30px 15px 30px;
+}
+
+#footer p {
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  color: #F4E414;
+  position: fixed;
+  text-align: center;
+  background: #2F0840;
+  padding: 10px 10px 0px 10px;
+}
