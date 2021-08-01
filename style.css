@@ -51,6 +51,10 @@ a[href="#navbar"] {
   text-decoration: none;
 }
 
+a[href="https://droplett.github.io/"] {
+  text-decoration: none;
+}
+
 .divider {
   height: 5px;
   width: 95vw;
